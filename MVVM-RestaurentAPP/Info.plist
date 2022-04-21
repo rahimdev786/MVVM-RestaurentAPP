@@ -26,5 +26,7 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>please allow Location to Access </string>
 </dict>
 </plist>
