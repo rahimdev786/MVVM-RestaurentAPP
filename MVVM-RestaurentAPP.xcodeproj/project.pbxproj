@@ -13,6 +13,15 @@
 		EFD33D5028111FE2006B841F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD33D4E28111FE2006B841F /* Main.storyboard */; };
 		EFD33D5228111FEA006B841F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD33D5128111FEA006B841F /* Assets.xcassets */; };
 		EFD33D5528111FEA006B841F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD33D5328111FEA006B841F /* LaunchScreen.storyboard */; };
+		EFD33D772811246A006B841F /* App Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD33D762811246A006B841F /* App Environment.swift */; };
+		EFD33D79281124B1006B841F /* Network Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD33D78281124B1006B841F /* Network Monitor.swift */; };
+		EFD33D7B281128EE006B841F /* API Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD33D7A281128EE006B841F /* API Error.swift */; };
+		EFD33D7D28112946006B841F /* API EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD33D7C28112946006B841F /* API EndPoints.swift */; };
+		EFD33D7F28112A5E006B841F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD33D7E28112A5E006B841F /* APIManager.swift */; };
+		EFD33D8128112F9C006B841F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD33D8028112F9C006B841F /* Extensions.swift */; };
+		EFD33D832811347E006B841F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD33D822811347E006B841F /* Models.swift */; };
+		EFD33D8528113945006B841F /* RestaurentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD33D8428113945006B841F /* RestaurentViewModel.swift */; };
+		EFD33D8728113F77006B841F /* Binding View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD33D8628113F77006B841F /* Binding View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		EFD33D5128111FEA006B841F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFD33D5428111FEA006B841F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFD33D5628111FEA006B841F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD33D762811246A006B841F /* App Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Environment.swift"; sourceTree = "<group>"; };
+		EFD33D78281124B1006B841F /* Network Monitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network Monitor.swift"; sourceTree = "<group>"; };
+		EFD33D7A281128EE006B841F /* API Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API Error.swift"; sourceTree = "<group>"; };
+		EFD33D7C28112946006B841F /* API EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API EndPoints.swift"; sourceTree = "<group>"; };
+		EFD33D7E28112A5E006B841F /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		EFD33D8028112F9C006B841F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EFD33D822811347E006B841F /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		EFD33D8428113945006B841F /* RestaurentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurentViewModel.swift; sourceTree = "<group>"; };
+		EFD33D8628113F77006B841F /* Binding View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,176 @@
 		EFD33D4728111FE2006B841F /* MVVM-RestaurentAPP */ = {
 			isa = PBXGroup;
 			children = (
-				EFD33D4828111FE2006B841F /* AppDelegate.swift */,
-				EFD33D4A28111FE2006B841F /* SceneDelegate.swift */,
-				EFD33D4C28111FE2006B841F /* ViewController.swift */,
-				EFD33D4E28111FE2006B841F /* Main.storyboard */,
-				EFD33D5128111FEA006B841F /* Assets.xcassets */,
-				EFD33D5328111FEA006B841F /* LaunchScreen.storyboard */,
+				EFD33D602811223F006B841F /* App Environment */,
+				EFD33D6128112263006B841F /* Network Monitor */,
+				EFD33D5F281120DB006B841F /* Resource */,
+				EFD33D69281122E8006B841F /* Launch Screen */,
+				EFD33D72281123E6006B841F /* Assets */,
+				EFD33D5C28112097006B841F /* WebServices */,
+				EFD33D632811227C006B841F /* Utality */,
+				EFD33D6228112272006B841F /* DataBase */,
+				EFD33D67281122C5006B841F /* StoryBoard */,
+				EFD33D68281122CE006B841F /* Modules */,
 				EFD33D5628111FEA006B841F /* Info.plist */,
 			);
 			path = "MVVM-RestaurentAPP";
+			sourceTree = "<group>";
+		};
+		EFD33D5C28112097006B841F /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				EFD33D7528112436006B841F /* API EndPoints */,
+				EFD33D7428112415006B841F /* API Errors */,
+				EFD33D732811240B006B841F /* API Manager */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		EFD33D5F281120DB006B841F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EFD33D4828111FE2006B841F /* AppDelegate.swift */,
+				EFD33D4A28111FE2006B841F /* SceneDelegate.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		EFD33D602811223F006B841F /* App Environment */ = {
+			isa = PBXGroup;
+			children = (
+				EFD33D762811246A006B841F /* App Environment.swift */,
+			);
+			path = "App Environment";
+			sourceTree = "<group>";
+		};
+		EFD33D6128112263006B841F /* Network Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				EFD33D78281124B1006B841F /* Network Monitor.swift */,
+			);
+			path = "Network Monitor";
+			sourceTree = "<group>";
+		};
+		EFD33D6228112272006B841F /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		EFD33D632811227C006B841F /* Utality */ = {
+			isa = PBXGroup;
+			children = (
+				EFD33D662811229B006B841F /* Protocal */,
+				EFD33D6428112286006B841F /* Helper Class */,
+			);
+			path = Utality;
+			sourceTree = "<group>";
+		};
+		EFD33D6428112286006B841F /* Helper Class */ = {
+			isa = PBXGroup;
+			children = (
+				EFD33D8028112F9C006B841F /* Extensions.swift */,
+			);
+			path = "Helper Class";
+			sourceTree = "<group>";
+		};
+		EFD33D662811229B006B841F /* Protocal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocal;
+			sourceTree = "<group>";
+		};
+		EFD33D67281122C5006B841F /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				EFD33D4E28111FE2006B841F /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		EFD33D68281122CE006B841F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EFD33D6C28112331006B841F /* Restaurent List */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EFD33D69281122E8006B841F /* Launch Screen */ = {
+			isa = PBXGroup;
+			children = (
+				EFD33D5328111FEA006B841F /* LaunchScreen.storyboard */,
+			);
+			path = "Launch Screen";
+			sourceTree = "<group>";
+		};
+		EFD33D6C28112331006B841F /* Restaurent List */ = {
+			isa = PBXGroup;
+			children = (
+				EFD33D7028112360006B841F /* Model */,
+				EFD33D6F28112358006B841F /* ViewModel */,
+				EFD33D6E2811234F006B841F /* View */,
+			);
+			path = "Restaurent List";
+			sourceTree = "<group>";
+		};
+		EFD33D6E2811234F006B841F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFD33D4C28111FE2006B841F /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EFD33D6F28112358006B841F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EFD33D8428113945006B841F /* RestaurentViewModel.swift */,
+				EFD33D8628113F77006B841F /* Binding View.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EFD33D7028112360006B841F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFD33D822811347E006B841F /* Models.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFD33D72281123E6006B841F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EFD33D5128111FEA006B841F /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		EFD33D732811240B006B841F /* API Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EFD33D7E28112A5E006B841F /* APIManager.swift */,
+			);
+			path = "API Manager";
+			sourceTree = "<group>";
+		};
+		EFD33D7428112415006B841F /* API Errors */ = {
+			isa = PBXGroup;
+			children = (
+				EFD33D7A281128EE006B841F /* API Error.swift */,
+			);
+			path = "API Errors";
+			sourceTree = "<group>";
+		};
+		EFD33D7528112436006B841F /* API EndPoints */ = {
+			isa = PBXGroup;
+			children = (
+				EFD33D7C28112946006B841F /* API EndPoints.swift */,
+			);
+			path = "API EndPoints";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +317,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFD33D7F28112A5E006B841F /* APIManager.swift in Sources */,
+				EFD33D8128112F9C006B841F /* Extensions.swift in Sources */,
 				EFD33D4D28111FE2006B841F /* ViewController.swift in Sources */,
+				EFD33D79281124B1006B841F /* Network Monitor.swift in Sources */,
 				EFD33D4928111FE2006B841F /* AppDelegate.swift in Sources */,
+				EFD33D772811246A006B841F /* App Environment.swift in Sources */,
+				EFD33D7B281128EE006B841F /* API Error.swift in Sources */,
+				EFD33D8728113F77006B841F /* Binding View.swift in Sources */,
+				EFD33D7D28112946006B841F /* API EndPoints.swift in Sources */,
 				EFD33D4B28111FE2006B841F /* SceneDelegate.swift in Sources */,
+				EFD33D832811347E006B841F /* Models.swift in Sources */,
+				EFD33D8528113945006B841F /* RestaurentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
